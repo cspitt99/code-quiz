@@ -141,8 +141,6 @@ input::placeholder {
     display: flex
 }
 
-
-
 #scoreboard ol li {
     list-style: none;
     justify-content: center;
