@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz!</title>
+    <link rel="stylesheet" href="./develop/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#highscore-page" id="highscore-btn" class="btn">Highscores</a>
+        <span id="timer">Time: <span id="time-left">0</span></span>
+    </header>
+    <div class="start-container">
+        <div id="home" class="flex-column flex-center">
+            <h1>Javascript Quiz Game!</h1>
+            <a href="#quiz-page" class="start-btn">Start</a>
+        </div>
+    </div>
+    <div id="quiz-container" class="hide">
+        <h1 id="question">What is the answer?</h1>
+        <ul class="choice-list">
+            <li><button class="choice-container" id="choice1">
+                    <p class="choice-text">Answer 1</p>
+                </button></li>
+            <li><button class="choice-container" id="choice2">
+                    <p class="choice-text">Answer 2</p>
+                </button></li>
+            <li><button class="choice-container" id="choice3">
+                    <p class="choice-text">Answer3</p>
+                </button></li>
+            <li><button class="choice-container" id="choice4">
+                    <p class="choice-text">Answer 4</p>
+                </button></li>
+        </ul>
+        <div id="answer-state"></div>
+    </div>
+    <div id="end-container" class="hide">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter your initials to save your score!</h2>
+                <input type="text" id="initials-input" placeholder="Enter your initials">
+                <button class="btn" id="saveScoreBtn">Save</button>
+            </form>
+        </div>
+    </div>
+    <div id="highscore-page" class="hide">
+        <h1>Highscores</h1>
+        <div id="scoreboard">
+            <ol id="score-list">
+            </ol>
+            <button class="btn" id="home-btn">Home</button>
+        </div>
+    </div>
+
+    <script src="./develop/quiz.js"></script>
+</body>
+
+</html>
