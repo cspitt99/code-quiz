@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <header>
+    <header id="header-container" class="flex-column justify-left">
         <a href="#highscore-page" id="highscore-btn" class="btn">Highscores</a>
         <span id="timer">Time: <span id="time-left">0</span></span>
     </header>
-    <div class="start-container">
+    <div class="container">
         <div id="home" class="flex-column flex-center">
             <h1>Javascript Quiz Game!</h1>
-            <a href="#quiz-page" class="start-btn">Start</a>
+            <a href="#quiz-page" class="btn">Start</a>
         </div>
     </div>
-    <div id="quiz-container" class="hide">
+    <div id="container" class="hide">
         <h1 id="question">What is the answer?</h1>
         <ul class="choice-list">
             <li><button class="choice-container" id="choice1">
@@ -38,7 +38,7 @@
         </ul>
         <div id="answer-state"></div>
     </div>
-    <div id="end-container" class="hide">
+    <div id="container" class="hide">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
             <form class="end-form-container">

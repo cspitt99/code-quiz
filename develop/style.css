@@ -1,0 +1,151 @@
+:root {
+    background-color: #16213E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+header {
+    display: inline;
+    flex-direction: row;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: #E94560;
+}
+
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 50%;
+    border-radius: 4px;
+    background-color: #E94560;
+    font-size: 3rem;
+    min-width: 40rem;
+}
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+#timer, #time-left{
+    display: flex;
+    justify-content: right;
+    font-size: 2.4rem;
+    padding-right: 1.2rem;
+    color: #fff;
+}
+
+#highscore-btn{
+    background-color: #533483;
+    color: #fff;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+#answer-state {
+    color: #fff;
+}
+
+#scoreboard {
+    background-color: #533483;
+    color: #fff;
+    border-radius: .5rem;
+    padding-right: 2rem;
+    display: flex
+}
+
+
+
+#scoreboard ol li {
+    list-style: none;
+    justify-content: center;
+    border-color: #E94560 border-style: dashed;
+    margin-top: 2rem;
+}
