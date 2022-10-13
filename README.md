@@ -12,7 +12,7 @@ A quiz site that scores the user based on their javascript knowledge in a timed 
 
 
 ## Installation
-  N/A
+  Deployed Site: https://cspitt99.github.io/code-quiz/
 
 ## Usage
   This is a fun way to test your javascript knowledge
